@@ -1,0 +1,86 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    height: 80vh;
+    padding: 15px;
+    margin-left: 20px;
+}
+
+body {
+    background: rgb(248,255,255);
+}
+
+.borders {
+    border: 15px solid rgb(156,204,204);
+}
+
+h4 {
+    text-shadow: 2px 2px 2px #7CBFCE;
+    font-size: 25px;
+}
+
+.item1 {
+    text-align: center;
+}
+
+.item2 {
+    margin-left: 20px;
+}
+
+#input-task {
+    margin-bottom: 10px;
+}
+
+#new-task-button {
+    margin: 20px;
+}
+
+button {
+    box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:5px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+
+button:hover {
+    background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+    scale: 1.1;
+}
+
+#error-message {
+    color: red;
+}
+
+#task-list {
+    font-size: 20px;
+    margin: 2px;
+}
+
+#faq {
+    margin-top: 15px;
+    border: 1px solid #408c99;
+    cursor: pointer;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #7CBFCE;
+    box-shadow: 1px 1px #408c99;
+    
+}
+
+#faq:hover {
+    scale: 1.1;
+    
+}
+
+li {
+    cursor: pointer;
+}
