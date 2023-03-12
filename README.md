@@ -4,8 +4,6 @@ https://to-do-janiphone5.netlify.app/
 
   Elsősorban a HTML dokumentum által definiált elemekre történő hivatkozásokat állítjuk elő. Megjelöljük az input mezőt, a gombokat és az app leírását tartalmazó elmeket.
 
-  Kreálunk egy üres tömböt a feladatok tárolására.
-
   Létrehozunk egy addTask nevű függvényt, melyben először kreálunk egy változót (task), amibe a beviteli mező értékét definiáljuk.
   Ezután egy feltételben megnézzük hogy a bevitt szöveg nem egyenlő-e üres mezővel, ha nem egyenlő, akkor egy li változóba a document.createElement metódussal előállítunk egy "li" elemet.
   Aztán az li változó által hivatkozott HTML elem belső szöveges tartalmát (innerText) állítja be a task változóban tárolt értékre.
