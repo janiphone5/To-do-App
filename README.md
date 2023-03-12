@@ -1,6 +1,6 @@
 # To-do-App
 
-https://to-do-janiphone5.netlify.app/
+https://janiphone5-to-do-app.netlify.app/
 
   Elsősorban a HTML dokumentum által definiált elemekre történő hivatkozásokat állítjuk elő. Megjelöljük az input mezőt, a gombokat és az app leírását tartalmazó elmeket.
 
